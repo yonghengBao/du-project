@@ -7,6 +7,8 @@ import axios from 'axios';
 import QS from 'qs'; //用来解决vue中post请求(详情)
 import Element from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css';
+Vue.use(router);
+Vue.use(Element)
 Vue.prototype.$axios = axios;
 Vue.prototype.qs = QS;
 
